@@ -12,3 +12,7 @@ body {
 .link {
   font-family: cursive;
 }
+
+img.centered {
+  text-align: center;
+}
