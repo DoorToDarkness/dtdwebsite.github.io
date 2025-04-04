@@ -6,21 +6,16 @@ body {
   display: block;
   max-width: 160px;
   height: 120px;
-  margin: 10px;
+  margin: 10px auto;
+  border-radius: 8px;
 }
 
 .link {
   font-family: cursive;
 }
 
-img.centered {
-  text-align: center;
-}
-
-ol {
-  text-align: center;
-}
-
-ul {
-  text-align: center;
+ol, ul {
+  text-align: left;
+  display: inline-block;
+  margin: auto;
 }
